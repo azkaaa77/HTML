@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input</title>
+  </head>
+  <body>
+    <input type="text" name="Nama" placeholder="Masukan nama anda" />
+    <input type="password" name="Kata Sandi" placeholder="Masukan kata sandi" />
+    <label for="email">Alamat Email :</label>
+    <input
+      type="email"
+      id="email"
+      name="Email"
+      placeholder="Masukan alamat email Anda"
+      required
+    />
+    <input type="number" name="Umur" min="18" max="100" />
+    <input type="checkbox" name="Hobi" value="Membaca" />Membaca
+    <input type="checkbox" name="Hobi" value="Menulis" />Menulis
+    <input type="radio" name="Jenis kelamin" value="pria" />Pria
+    <input type="radio" name="Jenis kelamin" value="wanita" />Wanita
+    <input type="file" name="berkas" />
+    <input type="date" name="tanggal lahir" />
+    <label for="waktu">Pilih Waktu :</label>
+    <input
+      type="time"
+      id="waktu"
+      name="waktu"
+      min="08.00"
+      max="17.00"
+      required
+    />
+    <label for="warna">Pilih Warna :</label>
+    <input type="color" id="warna" value="#ff0000" />
+    <label for="waktu">Atur Volume :</label>
+    <input
+      type="range"
+      id="volume"
+      name="volume"
+      min="0"
+      max="100"
+      step="1"
+      value="50"
+    />
+    <button type="submit">Kirim</button>
+    <input type="reset" value="reset" />
+    <button type="submit">Kirim</button>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1 style="color: rgb(28, 28, 247)">
+      <center>Formulir Pendataan Siswa</center>
+    </h1>
+    <table border="1" width="80%" style="border-collapse: collapse">
+      <form action="/submit" method="POST">
+        <tr>
+          <label>Nama :</label
+          ><br />
+          <input type="text" id="name" name="name" />
+          <br />
+          <label>Email :</label
+          ><br />
+          <input type="email" id="email" name="email" />
+          <br />
+          <label>password :</label
+          ><br />
+          <input type="password" id="password" name="password" />
+          <br />
+          <label>Usia :</label
+          ><br />
+          <input type="text" id="usia" name="usia" />
+          <br />
+          <label>Tanggal Lahir :</label
+          ><br />
+          <input type="date" id="date" name="date" />
+          <br />
+          <br />
+          <label>Hobi :</label
+          ><br />
+          Membaca Buku
+          <input type="checkbox" id="Membaca buku" name="Membaca buku" />
+          Menonton
+          <input type="checkbox" id="Menonton" name="Menonton" />
+          Berbelanja
+          <input type="checkbox" id="Berbelanja" name="Berbelanja" /><br />
+          Traveling
+          <input type="checkbox" id="Traveling" name="Traveling" />
+          Olahraga
+          <input type="checkbox" id="Olahraga" name="Olahraga" /><br />
+          <br />
+          <label>Saudara Kandung :</label
+          ><br />
+          1
+          <input type="radio" />
+          2
+          <input type="radio" />
+          3
+          <input type="radio" />
+          4
+          <input type="radio" />
+          5
+          <input type="radio" />
+          <br />
+          <br />
+          <label>Kelas :</label>
+          <select>
+            <option>XI RPL 1</option>
+            <option>XI RPL 2</option>
+            <option>XI RPL 3</option>
+          </select>
+          <br />
+          <br />
+          <label>Pesan dan Kesan</label
+          ><br />
+          <textarea></textarea>
+          <br />
+          <button
+            type="submit"
+            style="background-color: chartreuse"
+            style="color: rgb(255, 255, 255)"
+          >
+            Kirim
+          </button>
+        </tr>
+      </form>
+    </table>
+  </body>
+</html>
